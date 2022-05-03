@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entregable Andres Schuster</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    <div id="app">
+        <h1>Empleados de la Empresa</h1>
+        <hr>
+        <br>
+        <h2>Backend</h2>
+        <mi-tabla :titulos="tabla1.titulos" :registros="tabla1.registros" :clases="tabla1.clases"></mi-tabla>
+        <br>
+        <h2>Frontend</h2>
+        <mi-tabla :titulos="tabla2.titulos" :registros="tabla2.registros" :clases="tabla2.clases"></mi-tabla>
+        <br>
+        <h2>Recursos Humanos</h2>
+        <mi-tabla :titulos="tabla3.titulos" :registros="tabla3.registros" :clases="tabla3.clases"></mi-tabla>
+    </div>
+</body>
+</html>

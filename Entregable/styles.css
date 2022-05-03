@@ -1,0 +1,55 @@
+table {
+    margin: auto;
+    border-color: black;
+    width: 600px;
+}
+
+td, th, thead {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+table.fondoAzul {
+    background-color: blue;
+}
+
+th.fondoAzul, thead.fondoAzul {
+    background-color: black;
+}
+
+table.fondoGris {
+    background-color: rgb(29, 27, 27);
+}
+
+thead.fondoGris, th.fondoGris {
+    background-color: black;
+}
+
+table.fondoMarron {
+    background-color: brown;
+}
+
+thead.fondoMarron, th.fondoMarron {
+    background-color: rgb(63, 21, 21);
+}
+
+.letraVerde {
+    color: green;
+    font-weight: bold;
+}
+
+.letraBlanca {
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+.letraAmarilla {
+    color: yellow;
+    font-weight: bold;
+}
+
+h1, h2 {
+    text-align: center;
+}
